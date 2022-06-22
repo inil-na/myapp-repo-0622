@@ -68,7 +68,7 @@ jobs:
           cat kustomization.yaml
       - name: Commit files
         run: |
-          cd manifest-repo
+          cd manifest-repo-0622
           git config --global user.email "inilc.na@gmail.com"
           git config --global user.name "inil-na"
           git commit -am "Update image tag"
